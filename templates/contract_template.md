@@ -19,6 +19,7 @@ Created: YYYY-MM-DD
 
 Existing contract(s): (Replace this line with the address of the specific smart contract you propose to change.)  
 Proposed change: (Replace this line with a link to the specific commit of the source code for your proposed change.)  
+Audit report: (Replace this line with a link to at least one third-party security audit report for the proposed change.)  
 
 ## License
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
