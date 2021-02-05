@@ -17,8 +17,8 @@ Created: YYYY-MM-DD
 
 ## Proposed change  
 
-Existing contract(s):  
-Proposed change:  
+Existing contract(s): (Replace this line with the address of the specific smart contract you propose to change.)  
+Proposed change: (Replace this line with a link to the specific commit of the source code for your proposed change.)  
 
 ## License
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
