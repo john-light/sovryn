@@ -1,5 +1,5 @@
 ---
-SGP: N/A
+SIP: N/A
 Title: Title
 Author: Name (GitHub username)
 Status: Draft
@@ -7,7 +7,7 @@ Track: Finance
 Created: YYYY-MM-DD
 ---
 
-# Insert title like "SGP-X: Example title" here  
+# Insert title like "SIP-X: Example title" here  
 
 ## Address of the transfer recipient  
 
