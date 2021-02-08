@@ -1,5 +1,5 @@
 ---
-SGP: N/A
+SIP: N/A
 Title: Title
 Author: Name (GitHub username)
 Status: Draft
@@ -7,7 +7,7 @@ Track: Proclamation
 Created: YYYY-MM-DD
 ---
 
-# Insert title like "SGP-X: Example title" here
+# Insert title like "SIP-X: Example title" here
 
 ## Proclamation text
 
