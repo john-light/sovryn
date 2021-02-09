@@ -11,8 +11,11 @@ Created: 2021-02-05
 
 **Version 0.1**
 
+## RFC 2119 compliance
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
+
 ## What is a Sovryn Improvement Proposal?
-A Sovryn Improvement Proposal, or "SIP", is a document that details a change to the management, allocation, or use of shared resources owned or directly influenced by Sovryn. All SIPs must be consistent with the goals and values put forth in [SIP-0](SIP-0.md) (the Sovryn Constitution) and compliant with the requirements outlined in this document, SIP-X. The SIP author is responsible for building consensus within the community for their SIP and documenting dissenting opinions.
+A Sovryn Improvement Proposal, or "SIP", is a document that details a change to the management, allocation, or use of shared resources owned or directly influenced by Sovryn. All SIPs MUST be consistent with [SIP-0](SIP-0.md) (the Sovryn Constitution) and compliant with the requirements outlined in this document, SIP-X. The SIP author is responsible for building consensus within the community for their SIP and documenting dissenting opinions.
 
 ## Purpose
 The purpose of the Sovryn Improvement Proposal Process ("the Sovryn proposal process") is to provide a structured process for making changes to the shared resources of Sovryn. For these shared resources, a governance process is needed to grant or deny access and approve or reject proposed changes. By creating a fair, lightweight, and transparent governance process, the SIP-X authors hope to give SOV holders a meaningful say in the governance of Sovryn and increase the chances of Sovryn's success.
@@ -20,7 +23,7 @@ The purpose of the Sovryn Improvement Proposal Process ("the Sovryn proposal pro
 ## Proposal workflow
 Parties directly involved in the process are the _SIP author(s)_ (you), _Sovryn Voters_, _Sovryn Guardians_, and _SIP Editors_. Each of these roles is explained later in this document.
 
-Proposals follow this workflow:
+Proposals SHOULD follow this workflow:
 
 * Stage I: Select SIP Track  
 * Stage II: Pre-proposal  
@@ -28,46 +31,55 @@ Proposals follow this workflow:
 * Stage IV: Review Periods  
 * Stage V: Sovryn DAO Vote  
 
-During Stage III SIP Editors will review proposals for formatting, legibility, and compliance with SIP-X, referring to SIP-X as the basis for accepting, denying, or requesting modifications to a proposal.
-
 At a high level, the SIP-X workflow looks like this:
 
 TODO: Upload and link workflow image here
 
-### Stage I: Select SIP Track
-Before you spend time working on a proposal, make sure the proposal complies with SIP-X and has a chance of passing review by the SIP Editors and your peers. Review the SIP tracks and their requirements then select the track that you think is best for your proposal. If your proposal meets the requirements, it has a much greater chance of being accepted by SIP Editors and approved by Sovryn Voters.
+> A proposal does not have to go through Stages I-IV before it is submitted for a Sovryn Vote in Stage V. However it is strongly RECOMMENDED to follow this whole process so that the proposal gets a proper review and is not perceived with suspicion or hostility by Sovryn Voters. If a proposal is urgent, it MAY go through an accelerated review process if needed; if you feel your proposal is urgent, you SHOULD make this urgency and its reason known when you introduce your proposal to the community to align expectations.
 
-There are four tracks that an SIP can be categorized into. Select the one you think is best for your SIP:
+### Stage I: Select SIP Track
+Before you spend time working on a proposal, you SHOULD make sure the proposal complies with SIP-X and has a chance of passing review by your peers. Review the SIP tracks and their requirements, then select the track that you think is best for your proposal. If your proposal meets the requirements, it has a much greater chance of being approved by Sovryn Voters.
+
+There are four tracks that a SIP can be categorized into. Select the one you think is best for your SIP:
 
 * Contract: proposals for modifying one or more Sovryn smart contracts  
 * Finance: proposals for transferring funds from the Sovryn Treasury  
 * Meta: proposals for changing SIP-0 or SIP-X (“changing the way things are changed”)  
 * Proclamations: proposals for making a public statement on behalf of Sovryn  
 
-Proposals that cannot be categorized into one of these tracks will likely be denied by SIP Editors. At the discretion of SIP Editors, a proposal may be categorized as “Other” until a new, appropriate track is approved as part of a Meta SIP.
+A proposal may be categorized as “Other” until a new, appropriate track is approved as part of a Meta SIP.
 
 In addition to the requirement that all SIPs must be consistent with SIP-0, each track has its own requirements for SIPs as follows:
 
 **Contract**  
-Proposals made to the Contract track must change one or more of the Sovryn smart contracts. The proposal should link to the existing contract(s) to be modified and to the source code of the proposed contract modification(s). All Contract track proposals must include a link to a third party audit report of the specified modification(s).
+Proposals made to the Contract track MUST change one or more of the Sovryn smart contracts. The proposal MUST link to the existing contract(s) to be modified and to the source code of the proposed contract modification(s). All Contract track proposals MUST include a link to a third party audit report of the specified modification(s).
 
-* All code modifications proposed made must be published under an MIT license.
+* All code modifications and associated documentation introduced by a Contract track proposal MUST be published under an MIT license.
 
 **Finance**  
-Proposals made to the Finance track must affect the movement of assets held by the Sovryn Treasury.
+Proposals made to the Finance track MUST affect the movement of assets held by the Sovryn Treasury.
 
-* All code and content funded through the Sovryn governance process must be released under one of the following licenses:  
+* All code, documentation, and content funded by a Finance track proposal MUST be released under one of the following appropriate licenses:  
+  * Creative Commons Zero (CC-0)  
+  * MIT  
+
+**Issuance**  
+Proposals made to the Issuance track MUST be used to increase the total supply of SOV tokens.
+
+* All code, documentation, and content funded by an Issuance track proposal MUST be released under one of the following appropriate licenses:  
   * Creative Commons Zero (CC-0)  
   * MIT  
 
 **Meta**  
-Proposals made to the Meta track must affect changes to SIP-0 or SIP-X. SIP Editors have the authority to fix errata in SIP-0 or SIP-X on an as-needed basis without going through the Sovryn governance process. All other proposals to modify SIP-0 or SIP-X should be made to the Meta track.
+Proposals made to the Meta track MUST affect changes to SIP-0 or SIP-X. SIP Editors have the authority to fix errata in SIP-0 or SIP-X on an as-needed basis without going through the Sovryn governance process. All other proposals to modify SIP-0 or SIP-X MUST be made to the Meta track.
 
 **Proclamations**  
-Proposals made to the Proclamations track are used to make a statement on behalf of Sovryn and can say whatever the author(s) want, so long as the proclamation is consistent with the Sovryn Constitution.  
+Proposals made to the Proclamations track MUST be used to make a statement on behalf of Sovryn and can say whatever the author(s) want, so long as the proclamation is consistent with the Sovryn Constitution.
+
+* For example, a Proclamation can be used to signal the Sovryn community's support for or disapproval of a certain RSKIP.  
 
 ### Stage II: Pre-proposal
-During Stage II you should seek feedback on your SIP idea by sharing it with your peers in the Sovryn community and soliciting their feedback. Examples of appropriate venues to share your SIP idea include:
+During Stage II you SHOULD seek feedback on your SIP idea by sharing it with your peers in the Sovryn community and soliciting their feedback. Examples of appropriate venues to share your SIP idea include:
 
 * The [#bitocracy channel](https://discord.gg/WApXyz4D5h) in the Sovryn Discord  
 * The [SIP category](https://forum.sovryn.app/c/bitocracy/sip-sovryn-improvement-proposals/) in the Sovryn forum  
@@ -76,17 +88,20 @@ During Stage II you should seek feedback on your SIP idea by sharing it with you
 Be open-minded and respectful of all feedback you receive. Adjust your proposal to address legitimate concerns as they come up to increase the odds of your proposal passing review in later stages.
 
 ### Stage III: Draft
-After you have asked the Sovryn community whether an idea has any chance of support, and you have received sufficient feedback to feel confident going forward, you can create a draft SIP as a draft pull request to the Bitocracy repo. Use a template from the Templates section below to ensure you are including all the necessary information. The draft SIP file should be located in the `SIPs` directory and given a temporary name e.g. `SIP.md`, which the SIP Editor will later assign an SIP number.
+After you have asked the Sovryn community whether an idea has any chance of support, and you have received sufficient feedback to feel confident going forward, you SHOULD create a draft SIP as a draft pull request to the Bitocracy repo. Use a template from the Templates section below to ensure you are including all the necessary information. Draft SIP files submitted to GitHub SHOULD be located in the `SIPs` directory and given a temporary name e.g. `SIP.md`, which the SIP Editor will later assign an SIP number, and MUST comply with the requirements set forth below to maintain consistency between SIPs.
+
+* A SIP MAY be drafted and submitted from anywhere. The Bitocracy repo is used only as a matter of convenience and to ease coordination between Sovryn contributors.
 
 **Templates**  
-Below is a list of SIP templates for each track. Copy the template for the track your SIP is in, fill it out, and submit the pull request with your SIP for review. Sections marked as “required” in the template must be completed. Note that all proposals must be licensed CC-0.
+Below is a list of SIP templates for each track. Copy the template for the track your SIP is in, fill it out, and submit the pull request with your SIP for review. Sections marked as “required” in the template MUST be completed. Note that all SIPs MUST be licensed CC-0.
 
 * [Contract](../templates/contract_template.md)  
 * [Finance](../templates/finance_template.md)  
+* [Issuance](../templates/issuance_template.md)  
 * [Meta](../templates/meta_template.md)  
 * [Proclamations](../templates/proclamation_template.md)  
 
-To make a Meta track change, you must:
+To make a Meta track change, you MUST:
 
 1. Create and submit a pull request changing either SIP-0 or SIP-X. Add your name and GitHub username, and the name and username of any of your co-authors, to the "Author" section in the SIP header.  
 2. In a _separate_ draft pull request, create a new file in the SIPs directory of the Bitocracy repo.  
@@ -94,7 +109,7 @@ To make a Meta track change, you must:
 4. Submit the new file from (2) as a pull request to the Bitocracy repo. This will be the SIP pull request. If the SIP is approved by SOV holders, the pull request created in (1) will be merged. If the proposal is rejected/withdrawn, the pull request created in (1) will be closed.
 
 ### Stage IV: Review Periods
-After an SIP has been submitted as a draft pull request to the Bitocracy repo, it must undergo three review periods:
+After an SIP has been submitted as a draft pull request to the Bitocracy repo, it SHOULD undergo three review periods:
 
 1. A Community Review, which starts the moment that a proposal has been submitted to the Bitocracy repo and lasts for one calendar week.  
 2. An Editor Review, which starts when the Community Review ends and lasts for an indefinite period of time.  
@@ -104,30 +119,35 @@ After an SIP has been submitted as a draft pull request to the Bitocracy repo, i
 During the Community Review period, the SIP author will have a chance to respond to feedback and make changes to their proposal based on the feedback they have received to increase the likelihood of the proposal passing.  
 
 **Editor Review**  
-At the end of the Community Review period, SIP Editors will perform their review of the proposal. The SIP author should incorporate any changes suggested by the SIP Editor to prepare the proposal for the Final Review. After a proposal is reviewed by SIP Editors, an SIP Editor will ask the author if the proposal is ready for the Final Review. If the SIP Editors do not receive a response from the SIP author then the SIP Editors may at their discretion either close the pull request or move the proposal on for a Final Review.
+At the end of the Community Review period, SIP Editors will perform their review of the proposal. The SIP author SHOULD incorporate any changes suggested by the SIP Editor to prepare the proposal for the Final Review. After a proposal is reviewed by SIP Editors, an SIP Editor will ask the author if the proposal is ready for the Final Review. If the SIP Editors do not receive a response from the SIP author then the SIP Editors may at their discretion either close the pull request or move the proposal on for a Final Review.
 
 * If agreeable, an SIP Editor will assign the SIP a number (generally the number of the SIP pull request), change the status of the SIP pull request from "draft" to "ready", and move the SIP on for a Final Review.  
 * Reasons for denying an SIP number and closing the pull request include the SIP being too unfocused, too broad, duplication of effort, being technically unsound, not providing proper motivation or addressing legitimate concerns by reviewers, or not in compliance with SIP-X.  
 
 **Final Review**
 
-During the Final Review, the proposal cannot be changed. This gives Sovryn Voters a chance to review the proposal in its final state before the SIP is voted on.
+During the Final Review, the proposal SHOULD NOT be changed. This gives Sovryn Voters a chance to review the proposal in its final state before the SIP is voted on.
 
 ### Stage V: Sovryn Vote
-After an SIP has gone through its Final Review, an SIP Editor will add a "Ready to vote" tag to the pull request. At the soonest available opportunity, Sovryn Guardians will review proposals that have the "Ready to vote" tag and decide whether to put the proposal to a final vote by Sovryn Voters or veto the proposal.
 
-Regardless of the vote outcome, after an SIP has been put to a vote a link to the vote will be added to the SIP and the "Ready to vote" label will be removed. If an SIP is rejected by Sovryn Voters, then the pull request will be closed. If an SIP is approved by Sovryn Voters, then the pull request will be merged. Any pull request referenced in a Meta track proposal that is approved by Sovryn Voters will be merged by an SIP Editor.  
+After a SIP has gone through its Final Review, a SIP Editor will add a "Ready to vote" tag to the pull request. At the soonest available opportunity, Sovryn Guardians will review proposals that have the "Ready to vote" tag and decide whether or not they will veto the proposal.
+
+Once a proposal has been tagged "Ready to vote", the SIP author MAY submit the proposal to the Sovryn Governance Dashboard for a vote by Sovryn Voters. Anyone else MAY submit the proposal instead but they SHOULD make an effort to communicate with the SIP author first to make sure the proposal is ready to be submitted and will not be accidentally submitted multiple times.
+
+The vote description submitted for a Sovryn Vote MUST include a link to the specific commit of the proposal being voted on as well as the SHA-256 hash of the raw text file of the proposal.
+
+* Example vote description: `SIP-2: Issuance of cSOV to community members. Details: https://github.com/DistributedCollective/SIPS/blob/00979e4d3b36e18b05f8088607809d8de03e261c/SIP-0002.md (SHA-256: 322cace15ffca9111b5fe1f3ce96ab54302144122c928489813926d33e0270f5)`  
+
+Regardless of the vote outcome, after a SIP has been voted on a link to the vote will be added to the SIP header and the "Ready to vote" label will be removed. If a SIP is rejected by Sovryn Voters, then the pull request will be closed. If a SIP is approved by Sovryn Voters, then the pull request will be merged. Any pull request referenced in a Meta track proposal that is approved by Sovryn Voters will also be merged by a SIP Editor.  
 
 ## Sovryn Voters
 Sovryn Voters are holders of the SOV token who have staked their SOV in the Sovryn Governance contract. The voting power of Sovryn Voters is determined by the number of SOV they have staked and the length of time their SOV is staked for.
 
 ## Sovryn Guardians
-Sovryn Guardians are elected by Sovryn Voters to participate in a 3-of-5 multisig. This multisig has the exclusive authority to submit onchain proposals to the Sovryn Governance contract. The multisig also decides which repo is the canonical repo for SIPs.
-
-When Sovryn Guardians submit a proposal for a vote, they will refer to the proposal with a link to the commit referred to as the canonical proposal as well as a SHA-256 hash of the raw proposal file at that commit. For Contract track proposals, only the contract source code specified in the proposal will be submitted for a vote.
+Sovryn Guardians are elected by Sovryn Voters to participate in a 3-of-5 Guardian Multisig. The Guardian Multisig has the exclusive authority to veto onchain proposals submitted to the Sovryn Governance contract. Sovryn Guardians SHOULD vote to veto a proposal if the proposal does not comply with SIP-0 and/or SIP-X.
 
 ## SIP Editors
-Each Sovryn Guardian is by default also an SIP Editor. Sovryn Guardians can choose to delegate their SIP Editor role to another Sovryn community member and, by a 3-of-5 vote, remove existing SIP Editors or add additional SIP Editors as needed.
+SIP Editors are appointed by the owner of the Bitocracy repo. If the owner of the Bitocracy repo becomes hostile or unresponsive toward contributors then a new repo can be set up with new SIP Editors, and proposal activity can continue there.
 
 SIP Editors have two responsibilities:
 
@@ -135,10 +155,10 @@ SIP Editors have two responsibilities:
 * Update the SIP status and merge or close its pull request depending on the Sovryn Vote outcome  
 
 **Review proposals**  
-SIP Editors review proposals and accept, reject, or request modifications to them based on formatting, legibility, and compliance with SIP-X.
+SIP Editors SHOULD review proposals and request modifications to them based on formatting and legibility. SIP Editors MAY close SIP pull requests due to inactivity.
 
 **Update the SIP status**  
-From the Final Review until the end of the Sovryn Vote, SIP Editors will update the SIP pull request and any associated pull requests as specified in the Sovryn governance process.  
+From the Final Review until the end of the Sovryn Vote, SIP Editors SHOULD update the SIP pull request and any associated pull requests as specified throughout this document.  
 
 ## License
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
