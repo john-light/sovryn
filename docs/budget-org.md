@@ -5,7 +5,7 @@ There is a short term need to create a budget and organization structure that mi
 ## Two-tier structure
 What is proposed is a two-tier structure, with the Sovryn Treasury at Tier 1 and organization “groups” at Tier 2.
 
-![](images/sovryn-budget-org.png)
+![](../images/sovryn-budget-org.png)
 
 Each group would have its own multisig composed of at least 3 members, with a majority vote  (e.g. 2-of-3) required to enact payments from the group to end recipients. To make budgeting for each group easier, groups are to be broken into functional units for each major area of work e.g. Product, Adoption, Operations, etc.
 
