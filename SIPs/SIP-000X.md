@@ -40,7 +40,7 @@ TODO: Upload and link workflow image here
 ### Stage I: Select SIP Track
 Before you spend time working on a proposal, you SHOULD make sure the proposal complies with SIP-X and has a chance of passing review by your peers. Review the SIP tracks and their requirements, then select the track that you think is best for your proposal. If your proposal meets the requirements, it has a much greater chance of being approved by Sovryn Voters.
 
-There are four tracks that a SIP can be categorized into. Select the one you think is best for your SIP:
+There are five tracks that a SIP can be categorized into. Select the one you think is best for your SIP:
 
 * Contract: proposals for modifying one or more Sovryn smart contracts  
 * Finance: proposals for transferring funds from the Sovryn Treasury  
