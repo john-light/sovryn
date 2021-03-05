@@ -44,6 +44,7 @@ There are four tracks that a SIP can be categorized into. Select the one you thi
 
 * Contract: proposals for modifying one or more Sovryn smart contracts  
 * Finance: proposals for transferring funds from the Sovryn Treasury  
+* Issuance: proposals for increasing the total supply of SOV using the SOV token contract
 * Meta: proposals for changing SIP-0 or SIP-X (“changing the way things are changed”)  
 * Proclamations: proposals for making a public statement on behalf of Sovryn  
 
