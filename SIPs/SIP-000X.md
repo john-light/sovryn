@@ -31,10 +31,6 @@ Proposals SHOULD follow this workflow:
 * Stage IV: Review Periods  
 * Stage V: Bitocracy Vote  
 
-At a high level, the SIP-X workflow looks like this:
-
-TODO: Upload and link workflow image here
-
 > A proposal does not have to go through Stages I-IV before it is submitted for a Sovryn Vote in Stage V. However it is strongly RECOMMENDED to follow this whole process so that the proposal gets a proper review and is not perceived with suspicion or hostility by Sovryn Voters. If a proposal is urgent, it MAY go through an accelerated review process if needed; if you feel your proposal is urgent, you SHOULD make this urgency and its reason known when you introduce your proposal to the community to align expectations.
 
 ### Stage I: Select SIP Track
@@ -45,7 +41,7 @@ There are five tracks that a SIP can be categorized into. Select the one you thi
 * Contract: proposals for modifying one or more Sovryn smart contracts  
 * Finance: proposals for transferring funds from the Sovryn Treasury  
 * Issuance: proposals for increasing the total supply of SOV using the SOV token contract
-* Meta: proposals for changing SIP-0 or SIP-X (“changing the way things are changed”)  
+* Meta: proposals for changing SIP-X (“changing the way things are changed”)  
 * Proclamations: proposals for making a public statement on behalf of Sovryn  
 
 A proposal may be categorized as “Other” until a new, appropriate track is approved as part of a Meta SIP.
