@@ -41,9 +41,23 @@ To set up a streaming payment, the recipient would first propose what project(s)
 
 In case a large lump-sum payment is absolutely necessary, this may be acceptable to Bitocracy provided there is sufficient justification in the proposal. For example, a big-ticket item may require full payment at the time of purchase rather than streaming payments over a period of time. In this case, bounties and streaming payments would not be the appropriate tool to use, and a lump-sum payment should be proposed to Bitocracy instead. The funds must go directly from the Treasury to the final recipient, without being managed by a third party in the middle of the transaction.
 
+## A path to Sovrynty
+
+Currently there exist two major points of centralization in the Sovryn protocol:
+1. Contract upgradeability  
+2. The Guardian veto
+
+### Contract upgradeability
+Many contracts in the Sovryn protocol have the ability to be "upgraded", that is, completely changed in place from one contract to another. While the protocol is in its infancy, it is understandable to maintain the ability to upgrade contracts to fix errors. This feature has already proven its usefulness to Sovryn and its users more than once. However, even with a time delay on upgrades, this remains a point of vulnerability from the perspective of protocol users and SOV holders.
+
+The current contract owner, with the sole power to initiate upgrades, is [the Exchequer Multisig](https://github.com/DistributedCollective/SIPS/blob/main/SIP-0007.md). I propose that at the end of the four-week bonus period of the SIP-0008 bug bounty program, the Exchequer Multisig transfer ownership of all Sovryn protocol smart contracts over to Bitocracy. Furthermore, I propose that if no critical bugs are found within six months of Bitocracy taking control, that the ownership function be burned so that the Sovryn contracts are no longer upgradeable. A critical bug being found within these six months will reset the clock until ownership is finally burned.
+
+### The Guardian veto
+In Bitocracy, all proposals have the possibility of being vetoed by the Guardian, a special role currently designated to the Exchequer Multisig. As with contract upgradeability, it is understandable that while Bitocracy is being established, that the system be protected from its own immaturity by a trusted set of participants. However, as time goes on and increasingly consequential decisions are put forth to Bitocracy, this role will take on more and more power and expose Bitocracy to the risk of censorship. I propose that an expiration date of 2022-01-21 be put on the Guardian role, on the one year anniversary of Bitocracy, to limit the potential for long-term censorship of the protocol.
+
 ## Conclusion
 
-Currently, Bitocracy is placing trust in third parties to manage a significant amount of the Treasury. Given this precedent, such demands for trust are likely to continue. Bitocracy should rein this back in and formally adopt principles of trust-minimization, particularly with regard to funds and other resources Bitocracy expects to be returned at a later date. Using collateralized contracts, Bitocracy can minimize the counterparty risk involved with such transactions. For transfers where funds are not expected to be returned at a later date, several payment options exist, including bounties, streaming payments, and lump-sum payments.
+Currently, Bitocracy is placing trust in third parties to manage a significant amount of the Treasury. Given this precedent, such demands for trust are likely to continue. Bitocracy should rein this back in and formally adopt principles of trust-minimization, particularly with regard to funds and other resources Bitocracy expects to be returned at a later date. Using collateralized contracts, Bitocracy can minimize the counterparty risk involved with such transactions. For transfers where funds are not expected to be returned at a later date, several payment options exist, including bounties, streaming payments, and lump-sum payments. Furthermore, point of centralization in the protocol that were prudent early on should be phased out on a reasonable timeline to ensure its long-term Sovrynty.
 
 With these operating principles in place Bitocracy will be in a better position to balance the need for security of the Treasury with the rapid execution required for Sovryn's success.
 
@@ -53,3 +67,5 @@ With these operating principles in place Bitocracy will be in a better position 
 - All future transfers of Treasury funds or other resources to third parties, that Bitocracy expects to receive back at a later date, will be cryptoeconomically secured with collateral of equal or greater value under the control of Bitocracy and/or a credibly-neutral arbitrator until the Treasury funds/resources are returned to Bitocracy in full.
 - Bitocracy will adopt a streaming payment smart contract standard and use it to pay for ongoing operational costs going forward. For purchases where full payment is due at the point of sale, a lump-sum payment can be proposed to Bitocracy and the payment should go directly from the Treasury to the seller.
 - Bitocracy will consider setting up one or more Bounties multisigs governed by active members of the community to pay for small, one-off bounties.
+- Contract upgradeability powers will be transferred from the Exchequer Multisig to Bitocracy at the end of the four-week bonus period of the SIP-0008 bug bounty program. Contract upgradeability will then be permanently disabled after six months of no critical bugs being found, with a critical bug being found during these six months resetting the clock until no critical bugs are found for a six-month period and contract upgradeability is permanently disabled.
+- The Guardian role will have an expiration date of 2022-01-21 at which point the Guardian role will be permanently removed from Bitocracy.
