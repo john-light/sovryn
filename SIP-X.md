@@ -43,7 +43,7 @@ In case a large lump-sum payment is absolutely necessary, this may be acceptable
 
 ## A path to Sovrynty
 
-Currently there exist two major points of centralization in the Sovryn protocol:
+Currently there exist two major points of centralization in the Sovryn protocol that should be phased out:
 1. Contract upgradeability  
 2. The Guardian veto
 
