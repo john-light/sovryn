@@ -14,7 +14,7 @@
 
 - Implement Quiet Ending Voting. If the outcome of a vote is flipped within the last _x_ hours of a vote, the duration of the vote is extended for _y_ hours, and if the vote outcome is flipped at any time during the quiet ending period, then vote is extended _y_ more hours.
 
-- Implement Bitocracy Ambassador. Enable Governance to interact with any RSK smart contract.
+- Implement Bitocracy Ambassador. The Bitocracy Ambassador is a feature that enables Governance to interact with any RSK smart contract.
 
 - Bitocracy expense model
   - Bounties for engagements valued at <$50,000
