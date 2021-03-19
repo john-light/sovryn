@@ -3,7 +3,7 @@
 ## Bitocracy smart contracts
 
 ### Q2 2021
-- Set Guardian role to burn on approximately 2022-01-21.
+- Set [Guardian role](https://github.com/DistributedCollective/SIPS/blob/2c70b5834f874ca27a00c8373c00de1c610d0b89/SIPs/SIP-0011.md#sovryn-guardians) to burn on approximately 2022-01-21.
 
 - Transfer contract ownership from Exchequer to Bitocracy
   - Permanently disable contract upgradeability after six months if no critical bugs are found. If a critical bug is found during these six months the clock is reset until no critical bugs are found for a six-month period.
