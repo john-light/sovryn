@@ -48,7 +48,7 @@
 
 - Proposal GUI. Create new Bitocracy proposals.
   - Contract: Call another RSK contract.
-  - Declaration: Make a declaration on behalf of Bitocracy.
+  - Proclamation: Make a proclamation on behalf of Bitocracy.
   - Finance: Withdraw from the treasury to a specified address
   - Issuance: Mint new SOV to a specified address
 
