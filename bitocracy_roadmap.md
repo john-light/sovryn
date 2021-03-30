@@ -44,6 +44,11 @@
     - Monthly and cumulative protocol revenues
     - Monthly and cumulative protocol rewards paid
 
+- Bitocracy email notifications
+  - Start vote
+  - Reminder
+  - Vote outcome
+
 ### Q3 2021
 
 - Proposal GUI. Create new Bitocracy proposals.
