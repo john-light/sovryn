@@ -27,13 +27,13 @@ There are a few main spots where the Sovryn community hangs out online. You can 
 
 There are several recurring calls that you should be aware of, both so you can join them if you want to and to avoid major conflicts when you're scheduling a call of your own.
 
+#### Sorcery call
+
+Daily @ 13:30-14:00 WET
+
 #### Adoption call
 
 Every MWF @ 14:30-15:30 UTC
-
-#### Sorcery call
-
-Every MWF @ 13:30-14:00 WET
 
 #### Governance call
 
