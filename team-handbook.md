@@ -31,6 +31,10 @@ There are several recurring calls that you should be aware of, both so you can j
 
 Every MWF @ 14:30-15:30 UTC
 
+#### Sorcery call
+
+Every MWF @ 13:30-14:00 WET
+
 #### Governance call
 
 Every other Thursday @ 18:00 GMT (e.g. 2021-02-18)
