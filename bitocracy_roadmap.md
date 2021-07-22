@@ -60,8 +60,10 @@
 - Global Bitocracy dashboard:
   - Show balances in non-treasury smart contracts e.g. Sovryn, Superfluid, etc.
 
+- Switch to [vesting call options](https://gist.github.com/alexisgauba/cf055f521bcfded018116f3f37074f67) for contributors  
+
 ### Q4 2021
 
 - Frame integration
-  - Add RSK network
-  - Add Bitocracy Ambassador feature
+  - ~~Add RSK network~~ [[DONE](https://github.com/floating/frame/issues/498#issuecomment-877647919)]  
+  - Add Bitocracy Ambassador feature  
