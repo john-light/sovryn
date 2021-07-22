@@ -65,5 +65,4 @@
 ### Q4 2021
 
 - Frame integration
-  - ~~Add RSK network~~ [[DONE](https://github.com/floating/frame/issues/498#issuecomment-877647919)]  
   - Add Bitocracy Ambassador feature  
