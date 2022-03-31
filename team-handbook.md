@@ -63,6 +63,14 @@ If you follow all of the above suggestions, then you will be left only with noti
 
 Following these tips should greatly enhance your experience and productivity in Discord :)
 
+## Sovryn project management
+
+The "core" team — that is, the team hired by the [Exchequer Committee](https://github.com/DistributedCollective/SIPS/blob/main/SIP-0015.md) to work part/full-time on Sovryn — organizes its work using monday.com. You can find the home page of the Sovryn organization on monday.com here:
+
+https://sovryn.monday.com/
+
+Coordinate with your Circle Lead and/or other Circle members to determine the best way for you to slip into the workstream.
+
 ## Recurring calls
 
 There are several recurring calls in Sovryn that you should be aware of, both so you can join them if you want to and to avoid major conflicts when you're scheduling a call of your own.
