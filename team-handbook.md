@@ -6,12 +6,13 @@ Sovryn's purpose is to create an open, fair, and transparent financial system fo
 
 We put this handbook together to make it as easy as possible for new team members such as yourself to find your way around, spending less time figuring out how things work and more time on the things that really matter.
 
-## Sovryn news channels
+## Sovryn info channels
 
 These are some of the places you can find the latest information about Sovryn:
 
 - Website: http://sovryn.app  
-- Library of DYOR: https://www.sovryn.app/blog  
+- Blog: https://www.sovryn.app/blog  
+- Wiki: https://wiki.sovryn.app/en/home  
 - Twitter: https://twitter.com/SovrynBTC  
 
 ## Sovryn community spots
