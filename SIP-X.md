@@ -21,7 +21,7 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 |                   |	LoanTokenLogicLM            | Owner	|
 |                   |	LoanTokenLogicWRBTC         | Owner	|
 |                   |	LoanTokenSettingsLowerAdmin | Owner	|
-| Protocol Modules  |	                            |       |
+| Protocol          |	                            |       |
 |                   |	Affiliates                  | Owner	|
 |                   |	LoanClosingsLiquidation     | Owner	|
 |                   |	LoanClosingsRollover        | Owner	|
@@ -31,27 +31,39 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 |                   |	LoanSettings                | Owner	|
 |                   |	ProtocolSettings            | Owner	|
 |                   |	SwapsExternal               | Owner	|
+| Other             |                             |       |
 |                   |	Liquidity Mining            | Owner	|
 |                   |	StakingRewards              | Owner	|
 |                   |	VestingLogic                | Owner	|
+|                   |	Modules                     | Admin	|
 | Connectors        |                             |       |
 |                   |	LoanToken                   | Admin	|
 |                   |	LoanTokenLogicBeacon        | Admin	|
 |                   |	LoanTokenSettingsLowerAdmin | Admin	|
 |                   |	LoanTokenLogicStandard      | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
-|                   |	LoanTokenSettingsLowerAdmin | Admin	|
+| Core              |	                            |     	|
+|                   |	Protocol                    | Admin	|
+| Oracles           |	                            |     	|
+|                   |	BPro Price Feed             | Admin	|
+|                   |	RSK Price Feed              | Admin	|
+|                   |	MoC Price Feed              | Admin	|
+|                   |	Price Feeds Gateway         | Admin	|
+|                   |	PriceFeedV1PoolOracle       | Admin	|
+| Governance        |	                            |      	|
+|                   | SOV                         | Admin |
+|                   | Locked SOV                  | Admin |
+|                   | FeeSharingProxy             | Admin |
+|                   | Staking                     | Admin |
+|                   | StakingRewards              | Admin |
+|                   | Origin Investor Claim       | Admin |
+|                   | Token Sender                | Admin |
+|                   | Vesting Registry            | Admin |
 
-## Motivation  
+## Motivation
 
-## Proposed change  
+
+
+## Proposed change
 
 ## License
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
