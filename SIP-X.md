@@ -44,11 +44,11 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 | Core              |	                            |     	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   |	Protocol                    | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 | Oracles           |	                            |     	|                                                              |
-|                   |	BPro Price Feed             | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	RSK Price Feed              | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	MoC Price Feed              | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	Price Feeds Gateway         | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	PriceFeedV1PoolOracle       | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
+|                   |	BPro Price Feed             | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
+|                   |	RSK Price Feed              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
+|                   |	MoC Price Feed              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
+|                   |	Price Feeds Gateway         | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
+|                   |	PriceFeedV1PoolOracle       | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 | Governance        |	                            |      	|                                                              |
 |                   | SOV                         | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | Locked SOV                  | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
