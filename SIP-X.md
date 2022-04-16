@@ -53,7 +53,6 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 |                   | SOV                         | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | Locked SOV                  | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | Staking                     | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   | Token Sender                | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | Vesting Registry            | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 
 ## Motivation
