@@ -52,7 +52,6 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 | Governance        |	                            |      	|                                                              |
 |                   | SOV                         | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | Locked SOV                  | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   | FeeSharingProxy             | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | Staking                     | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | StakingRewards              | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   | Origin Investor Claim       | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
