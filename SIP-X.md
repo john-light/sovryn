@@ -20,7 +20,6 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 | Other             |                             |       |                                                              |
 |                   |	Liquidity Mining            | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 |                   |	StakingRewards              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	VestingLogic                | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   |	Modules                     | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 | Connectors        |                             |       |                                                              |
 |                   |	LoanToken                   | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
