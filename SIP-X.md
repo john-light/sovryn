@@ -15,31 +15,30 @@ If approved, this proposal will result in an on-chain state change transferring 
 
 Furthermore, this proposal will result in a signal from SOV stakers that they are willing and ready to accept the owner and/or adminstrator role in the following Sovryn smart contracts, to be transferred by the Exchequer Multisig no later than `2022-XX-XX 23:59:59 UTC`:
 
-|	Category        	| Contract name	              | Role  | New governor                                                 |
-| ------------------ |:---------------------------:|:-----:|:------------------------------------------------------------:|
-| Core |:---------------------------:|:-----:|:------------------------------------------------------------:|
-| -------- | Protocol | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-| Other             |                             |       |                                                              |
-| | Liquidity Mining | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-| | Vesting Registry | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	StakingRewards              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-| Connectors         |                             |       |                                                              |
-| | LoanTokenLogicBeacon | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanToken                   | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanToken                   | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-| Core              |	                            |     	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	Protocol                    | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-| Oracles           |	                            |     	|                                                              |
-|                   |	BPro Price Feed             | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	RSK Price Feed              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	MoC Price Feed              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	Price Feeds Gateway         | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	PriceFeedV1PoolOracle       | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-| Governance        |	                            |      	|                                                              |
-|                   | Locked SOV                  | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   | Staking                     | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   | Vesting Registry             | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   | Vesting Registry            | Admin | Exchequer Multisig (`0x924f5ad34698Fd20c90Fe5D5A8A0abd3b42dc711`) |
+|	Category  	| Contract name	        | Role  | New governor                                                      |
+| ---------- |:---------------------:|:-----:|:-----------------------------------------------------------------:|
+| Core       |                       |       |                                                                   |
+|            | Protocol              | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`)      |
+|            |	Protocol              | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+| Connectors |                       |       |                                                                   |
+|            | LoanTokenLogicBeacon  | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`)      |
+|            |	LoanToken             | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`)      |
+|            |	LoanToken             | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+| Governance |	                      |      	|                                                                   |
+|            | Locked SOV            | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            | Staking               | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            |	StakingRewards        | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            | Vesting Registry      | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`)      |
+|            | Vesting Registry      | Admin | GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            | Vesting Registry      | Admin | Exchequer Multisig (`0x924f5ad34698Fd20c90Fe5D5A8A0abd3b42dc711`) |
+| Oracles    |	                      |      	|                                                                   |
+|            |	BPro Price Feed       | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            |	MoC Price Feed        | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            |	RSK Price Feed        | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            |	Price Feeds Gateway   | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+|            |	PriceFeedV1PoolOracle | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`)      |
+| Other      |                       |       |                                                                   |
+|            | Liquidity Mining      | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`)      |
 
 ## Motivation
 
