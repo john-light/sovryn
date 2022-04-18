@@ -16,7 +16,9 @@ If approved, this proposal will result in an on-chain state change transferring 
 Furthermore, this proposal will result in a signal from SOV stakers that they are willing and ready to accept the owner and/or adminstrator role in the following Sovryn smart contracts, to be transferred by the Exchequer Multisig no later than `2022-XX-XX 23:59:59 UTC`:
 
 |	Category        	| Contract name	              | Role  | New governor                                                 |
-| ----------------- |:---------------------------:|:-----:|:------------------------------------------------------------:|
+| ------------------ |:---------------------------:|:-----:|:------------------------------------------------------------:|
+| Core |:---------------------------:|:-----:|:------------------------------------------------------------:|
+| -------- | Protocol | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 | Other             |                             |       |                                                              |
 | | Liquidity Mining | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 | | Vesting Registry | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
