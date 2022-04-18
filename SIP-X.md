@@ -17,20 +17,6 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 
 |	Category        	| Contract name	              | Role  | New governor                                                 |
 | ----------------- |:---------------------------:|:-----:|:------------------------------------------------------------:|
-| LoanToken Modules |	                            | 	    |                                                              |
-|                   |	LoanTokenLogicLM            | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanTokenLogicWRBTC         | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanTokenSettingsLowerAdmin | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-| Protocol          |	                            |       |                                                              |
-|                   |	Affiliates                  | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanClosingsLiquidation     | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanClosingsRollover        | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanClosingsWith            | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanMaintenance             | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanOpenings                | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	LoanSettings                | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	ProtocolSettings            | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
-|                   |	SwapsExternal               | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 | Other             |                             |       |                                                              |
 |                   |	Liquidity Mining            | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 |                   |	StakingRewards              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
