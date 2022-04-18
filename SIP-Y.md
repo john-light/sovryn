@@ -15,9 +15,9 @@ If approved, this proposal will signal approval for a changing of the Guardians:
 - The role of Bitocracy Guardian, which has the power to veto any proposal that goes through Bitocracy, will be held by a 3-of-9 multisig.
 - The role of Contracts Guardian, which has the power to pause or freeze certain functions or entire smart contracts, will be held by a 3-of-12 multisig.
 
-The proposed membership of these multisigs is as follows:
+The proposed signers sets of these multisigs is as follows:
 
-|	Guardian          	         | Keyholder	                 | RSK address  |
+|	Guardian          	         | Signer   	                 | RSK address  |
 | ---------------------------- |:---------------------------:|:------------:|
 | Bitocracy Guardian (3-of-9)  |                             |              |
 |                              | .                           | `0x...`      |
@@ -28,7 +28,9 @@ To ensure the effectiveness of these Guardian roles, processes will be put in pl
 
 ## Motivation
 
-Currently the Bitocracy and Contracts Guardian roles are both filled by the Exchequer Multisig, using the original Gnosis Multisig contracts. We propose assigning these roles to two different multisigs, both created using the newer Gnosis Safe Multisig contracts, with different signer sets to account for the different responsibilities and skills required of each multisig.
+Currently the Bitocracy and Contracts Guardian roles are both filled by the Exchequer Multisig, using the original Gnosis Multisig contracts. We propose assigning the Contracts Guardian role to a new multisig created using Gnosis Safe. We further propose updating the membership set of the Exchequer Multisig and renaming this multisig the Bitocracy Guardian. Each Guardian multisig will have different signer sets to account for the different responsibilities and skills required of each multisig.
+
+The reason for keeping the existing Gnosis Multisig-based multisig as Bitocracy Guardian is that changing the Bitocracy Guardian would require replacing the Governor contract with a new Governor contract, which in turn will require additional backend and frontend work to preserve the voting history in the Voting app. We decided to forgo these changes for now in favor of a simpler approach that would require much less work.
 
 ## Proposed change
 
@@ -53,6 +55,10 @@ Examples of proposals that would be controversial but nonetheless not be conside
 
 ### Contracts Guardian
 The Contracts Guardian will have the role of either pausing or freezing any Sovryn contract or contract function that can be paused or frozen and is found to have a vulnerability that could be exploited and cause harm to Sovryn users. SOV stakers will have the ability to replace the Contracts Guardian if desired or needed.
+
+### Disclaimer
+
+Guardian signers will fulfill their duties on a BEST EFFORT basis. This means that while they will make their best effort to fulfill their role as described in this SIP, Guardian signers have NO OBLIGATION and Sovryn users should have NO EXPECTATION that Guardian signers will take ANY ACTION WHATSOEVER, AT ANY TIME, UNDER ANY CIRCUMSTANCES. As holders of their own private keys, Sovryn users accept that they themselves, and they alone, are ultimately responsible for the safety and security of their funds.
 
 ## License
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
