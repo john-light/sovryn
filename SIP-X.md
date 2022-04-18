@@ -22,8 +22,8 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 | | Vesting Registry | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 |                   |	StakingRewards              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 | Connectors        |                             |       |                                                              |
+|                   |	LoanToken                   | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 |                   |	LoanToken                   | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
-|                   |	LoanTokenLogicBeacon        | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   |	LoanTokenSettingsLowerAdmin | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 |                   |	LoanTokenLogicStandard      | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 | Core              |	                            |     	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
