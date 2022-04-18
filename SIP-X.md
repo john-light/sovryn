@@ -18,7 +18,8 @@ Furthermore, this proposal will result in a signal from SOV stakers that they ar
 |	Category        	| Contract name	              | Role  | New governor                                                 |
 | ----------------- |:---------------------------:|:-----:|:------------------------------------------------------------:|
 | Other             |                             |       |                                                              |
-|                   |	Liquidity Mining            | Owner	| GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
+| | Liquidity Mining | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
+| | Vesting Registry | Owner | GovernorOwner (`0x6496df39d000478a7a7352c01e0e713835051ccd`) |
 |                   |	StakingRewards              | Owner	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
 | Connectors        |                             |       |                                                              |
 |                   |	LoanToken                   | Admin	| GovernorAdmin (`0xff25f66b7d7f385503d70574ae0170b6b1622dad`) |
