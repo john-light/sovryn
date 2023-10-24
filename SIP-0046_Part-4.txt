@@ -1,0 +1,5 @@
+SIP-0046: Transferring ownership of Sovryn contracts (Part 4)\n
+https://forum.sovryn.com/t/bitocracy-3-0-sip-0046-transferring-ownership-of-sovryn-contracts/2545\n
+Approve transferring governance of Sovryn contracts to Bitocracy, including accepting ownership of the AMM contracts\n
+---\n
+Details: https://github.com/DistributedCollective/SIPS/blob/f350a00/SIP-0046_part-4.md, sha256: 51f041f0a2df9bb6cae180b2cb30fb92ba9b46a016d6e228401e0ee4bcbeef7d
